@@ -1,113 +1,189 @@
-![Next.js blogging template for Netlify](https://repository-images.githubusercontent.com/284910441/d8efc300-e2ae-11ea-9596-b01e3844e39d)
+# Landing Page Template built with Next JS 11+, Tailwind CSS 2.0 and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c6f44d34-0570-4ca0-9d3d-cabdaa2b3afb/deploy-status)](https://app.netlify.com/sites/nextjs-netlify-blog-template/deploys)
-[![MADE BY Next.js](https://img.shields.io/badge/MADE%20BY%20Next.js-000000.svg?style=flat&logo=Next.js&labelColor=000)](https://nextjs.org/)
+<p align="center">
+  <a href="https://creativedesignsguru.com/demo/nextjs-landing-page/"><img src="public/assets/images/nextjs-landing-page-banner.png?raw=true" alt="Next js starter banner"></a>
+</p>
 
-Next.js blogging template for Netlify is a boilerplate for building blogs with only Netlify stacks.
+🚀 Landing Page theme written in Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
 
-There are some boilerplate or tutorials for the combination of Next.js and Netlify on GitHub. These resources have documentation and good tutorial to get started Next.js and Netlify quickly, but they are too simple to build blogs with standard features like tagging.
+Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/nextjs-landing-page/).
 
-Next.js blogging template for Netlify has already implemented these standard features for building blogs with only using Next.js and Netlify stacks.
+### DEMO
 
-## Demo
+[![Nextjs Landing Page Template Screenshot](public/assets/images/nextjs-landing-page-screenshot.png?raw=true)](https://creativedesignsguru.com/demo/nextjs-landing-page/)
 
-Deploy on your environment by clicking here:
+Check out our [live demo](https://creativedesignsguru.com/demo/nextjs-landing-page/).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/wutali/nextjs-netlify-blog-template&stack=cms)
+### Features
 
-Or access the following demo site:
+Developer experience first:
 
-[Next.js blog template for Netlify](https://nextjs-netlify-blog-template.netlify.app/)
+- 🔥 [Next.js](https://nextjs.org) for Static Site Generator
+- 🎨 Integrate with [Tailwind CSS](https://tailwindcss.com) (w/ JIT mode)
+- 💅 PostCSS for processing Tailwind CSS and integrated to `styled-jsx`
+- 🎉 Type checking [TypeScript](https://www.typescriptlang.org)
+- ✅ Strict Mode for TypeScript and React 17
+- ✏️ Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals and Airbnb configuration)
+- 🛠 Code Formatter with [Prettier](https://prettier.io)
+- 🦊 Husky for Git Hooks
+- 🚫 Lint-staged for running linters on Git staged files
+- 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
+- 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
+- ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+- 🖱️ One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
+- 🌈 Include a FREE theme
+- 💯 Maximize lighthouse score
 
-## Features
+Built-in feature from Next.js:
 
-- **Tagging**: organizes content by tags
-- **Author**: displays author names who write a post
-- **Pagination**: limits the number of posts per page
-- **CMS**: built with CMS to allow editors modifying content with the quickest way
-- **SEO optimized**: built-in metadata like JSON-LD
-- **Shortcode**: extends content writing with React component like WordPress shortcodes
+- ☕ Minify HTML & CSS
+- 💨 Live reload
+- ✅ Cache busting
 
-## Dependencies
+### Included Components
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [Next.js](https://nextjs.org/)
-- [Netlify](https://www.netlify.com/)
-- [MDX](https://mdxjs.com/)
+- Navbar
+- Hero
+- Features
+- CTA banner
+- Footer
 
-## Getting started
+Find more components in our [premium NextJS themes](https://creativedesignsguru.com/category/nextjs/).
 
-To create your blog using the template, open your terminal, `cd` into the directory you'd like to create the app in,
-and run the following command:
+### Philosophy
+
+- Minimal code
+- SEO-friendly
+- 🚀 Production-ready
+
+### Nextless.js SaaS Boilerplate
+
+Building your SaaS product faster with [Nextless JS SaaS Boilerplate](https://nextlessjs.com).
+
+[![Nextless React SaaS Boilerplate](https://nextlessjs.com/assets/images/hero-image.png)](https://nextlessjs.com)
+
+### Premium Themes
+
+| [Green Nextjs Landing Page Template](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [Purple Saas Nextjs Theme](https://creativedesignsguru.com/landing-purple-modern-react-theme/) |
+| --- | --- |
+| [![Green Nextjs Landing Page Template](https://creativedesignsguru.com/assets/images/themes/landing-green-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [![Blue Landing Page Nextjs Theme](https://creativedesignsguru.com/assets/images/themes/landing-blue-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-blue-modern-react-theme/) |
+
+Find more [Nextjs Themes](https://creativedesignsguru.com/category/nextjs/).
+
+### Requirements
+
+- Node.js and npm
+
+### Getting started
+
+Run the following command on your local environment:
 
 ```
-npx create-next-app your-blog --example "https://github.com/wutali/nextjs-netlify-blog-template"
+git clone --depth=1 https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template.git my-project-name
+cd my-project-name
+npm install
 ```
 
-After that, set up your project as following the Netlify blog:
-
-[A Step-by-Step Guide: Deploying on Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
-
-## Customization
-
-This template is just a template and a boilerplate in which users can customize anything after the project was cloned and started.
-The following instructions introduce common customization points like adding new metadata or applying a new design theme.
-
-### Styling pages by a customized theme
-
-All source codes related to the blog are under [components](/src/components) and [pages](/src/pages) directory.
-You can modify it freely if you want to apply your design theme.
-All components use [styled-jsx](https://github.com/vercel/styled-jsx) and [css-modules](https://github.com/css-modules/css-modules) to define their styles, but you can choose any styling libraries for designing your theme.
-
-The directory tree containing the blog source code are described below:
+Then, you can run locally in development mode with live reload:
 
 ```
-meta: yaml files defining metadata like authors or tags
-public: images, favicons and other static assets
-src
-├── assets: other assets using inside of components
-├── components: pieces of components consisting of pages
-├── content: mdx files for each post page
-├── lib: project libraries like data fetching or pagination
-└── pages: page components managing by Next.js
+npm run dev
 ```
 
-### Organizing content by categories
+Open http://localhost:4000 with your favorite browser to see your project. For your information, Next JS need to take some time to compile the project for your first time.
 
-The category metadata that associates with content have the same relationship with the authors' one.
-Then reference these implementations for adding new metadata:
+```
+.
+├── README.md            # README file
+├── next.config.js       # Next JS configuration
+├── public               # Public folder
+│   └── assets
+│       └── images       # Image used by default template
+├── src
+│   ├── background       # Atomic background component
+│   ├── button           # Atomic button component
+│   ├── cta              # Atomic cta component
+│   ├── feature          # Atomic feature component
+│   ├── footer           # Atomic footer component
+│   ├── hero             # Atomic hero component
+│   ├── layout           # Atomic layout component
+│   ├── navigation       # Atomic navigation component
+│   ├── pages            # Next JS pages
+│   ├── styles           # PostCSS style folder with Tailwind
+│   ├── templates        # Default template
+│   └── utils            # Utility folder
+├── tailwind.config.js   # Tailwind CSS configuration
+└── tsconfig.json        # TypeScript configuration
+```
 
-- [public/admin/config.yml](/public/admin/config.yml#L51): author metadata definition for Netlify CMS
-- [src/lib/authors.tsx](/src/lib/authors.ts): fetches metadata and defines utility functions for components
-- [meta/authors.yml](/src/meta/authors.yml): author content managed by Netlify CMS
-- [src/components/PostLayout.tsx](/src/components/PostLayout.tsx): displays author content for each page
+### Customization
 
-You understood they have four steps to add the category metadata on your project after you read the above source codes:
+You can easily configure the theme. Please change the following file:
 
-1. Define the category metadata on the above Netlify config file
-2. Create an empty file named with `categories.yml` under [meta](/src/meta/) directory
-3. Create a new module for fetching category metadata
-4. Display the category metadata on [src/components/PostLayout.tsx](/src/components/PostLayout.tsx#L75) or other components you want
+- `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your favicon, you can generate from https://favicon.io/favicon-converter/
+- `src/styles/main.css`: your CSS file using Tailwind CSS
+- `utils/AppConfig.ts`: configuration file
+- `src/pages/index.tsx`: the index page of the theme that uses the `Base` component
+- `src/template/Base.tsx`: the `Base` component using component blocks
+- `src/templates/*`: the list of component blocks
+- `src/*`: other folders in src are the atomic components used by components blocks
 
-It is all you have to do. After that, you can access Netlify CMS and create new categories at any time.
+Here is the layer:
 
-### Locale settings for Netlify CMS
+- the entry point: `index.tsx` in `src/pages`
+- the `Base` template: `Base.tsx` in `src/templates`
+- use component blocks from `src/templates/*`
+- use atomic components from `src/*`
 
-Modify [config.yml](/public/admin/config.yml) and
-[index.html](/public/admin/index.html) under [public/admin](/public/admin/) directory
-as following instructions:
+### Deploy to production
 
-[Netlify CMS - Configuration Options #Locale](https://www.netlifycms.org/docs/configuration-options/#locale)
+You can see the results locally in production mode with:
 
-## References
+```
+$ npm run build
+$ npm run start
+```
 
-- [Netlify CMS Documentation](https://www.netlifycms.org/docs/intro/)
-- [Building a Markdown blog with Next 9.4 and Netlify](https://www.netlify.com/blog/2020/05/04/building-a-markdown-blog-with-next-9.4-and-netlify/)
-- [Hugo Theme - Codex](https://github.com/jakewies/hugo-theme-codex)
-- [Next.js Starter Template for TypeScript](https://github.com/vercel/next-learn-starter/tree/master/typescript-final)
-- [Building Blog with NextJS and Netlify CMS](https://dev.to/mefaba/building-blog-with-nextjs-and-netlify-cms-fom)
-- [Unicons](https://github.com/Iconscout/unicons)
+The generated HTML and CSS files are minified (built-in feature from Next js). It will also removed unused CSS from [Tailwind CSS](https://tailwindcss.com).
 
-## License
+You can create an optimized production build with:
 
-MIT
+```
+npm run build-prod
+```
+
+Now, your theme is ready to be deployed. All generated files are located at `out` folder, which you can deploy with any hosting service.
+
+### Deploy to Netlify
+
+Clone this repository on own GitHub account and deploy to Netlify:
+
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template)
+
+### Deploy to Vercel
+
+Deploy this Next JS Boilerplate on Vercel in one click:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fixartz%2FNext-JS-Landing-Page-Starter-Template)
+
+### VSCode information (optional)
+
+If you are VSCode users, you can have a better integration with VSCode by installing the suggested extension in `.vscode/extension.json`. The starter code comes up with Settings for a seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
+
+Pro tips: if you need a project wide type checking with TypeScript, you can run a build with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> on Mac.
+
+### Contributions
+
+Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug.
+
+### License
+
+Licensed under the MIT License, Copyright © 2020
+
+See [LICENSE](LICENSE) for more information.
+
+---
+
+Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+
+[![Sponsor Next JS Boilerplate](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://www.buymeacoffee.com/ixartz)
